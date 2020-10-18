@@ -42,9 +42,9 @@ public class Mediatheque {
 
     }
 
-    private void accept(ItemVisitor iv) {
+    private void accept(ItemVisitor v) {
         for (Item i : items) {
-            i.accept(iv);
+            i.accept(v);
         }
 
     }

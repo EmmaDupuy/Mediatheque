@@ -10,11 +10,11 @@ package mediatheque;
  * @author midor
  */
 public class ItemPrinter implements ItemVisitor{
-    public void visit(CD cd){
+    public void visitCD(CD cd){
        System.out.println(cd);
        
     }
-        public void visit(Book b){
+        public void visitBook(Book b){
        System.out.println(b);
     }
 }
